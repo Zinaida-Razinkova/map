@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="uk">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МАПИ</title>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Roboto:wght@300;400;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@0.7.0/modern-normalize.min.css">
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="container header__wrapp">
+            <nav class="header__nav">
+                <a class="header__logo" href="./index.html">МАПИ</a>
+                <div class="header__container" data-menu id="header-container">
+                    <ul class="header__list">
+                        <li class="header__item"><a class="header__link" href="#">Продукти</a></li>
+                        <li class="header__item"><a class="header__link" href="#size">Розміри</a></li>
+                        <li class="header__item"><a class="header__link" href="#engraving">Гравіровка</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <button class="header__menu" aria-controls="header-container" aria-expanded="false" type="button"
+                data-menu-button>
+                <svg width="22" height="22" aria-label="Перемикач мобільного меню">
+                    <use class="header__menu-close" href="./images/sprite.svg#burgerclose"></use>
+                    <use class="header__menu-burger" href="./images/sprite.svg#burgermenu"></use>
+                </svg>
+            </button>
+        </div>
+    </header>
+    <div class="wrapper">
+
+        <main>
+
+            <section class="products">
+                <div class="products__container container">
+                    <div class="products__content">
+                        <h1 class="products__title title">Дерев'яна мапа світу на стіну чорна</h1>
+                        <p class="products__text">Lorem ipsum dolor sit amet.</p>
+                        <p class="products__text">Lorem ipsum dolor sit amet.</p>
+                        <p class="products__text">Lorem ipsum dolor sit amet.</p>
+                        <p class="products__text">Lorem ipsum dolor sit amet.</p>
+                        <p class="products__text">Lorem ipsum dolor sit amet.</p>
+                        <button class="products__button" type="button">Перейти до каталогу</button>
+                    </div>
+                    <div class="products__img">
+                        <img src="./images/map.jpg" alt="Map" width="500">
+                    </div>
+                </div>
+            </section>
+            <section class="size">
+                <div class="container">
+                    <h2 class="size__title title">Мапа світу з дерева: доступні розміри</h2>
+                    <ul class="size__list">
+                        <li class="size__item">
+                            <a href="#" class="size__link">
+                                <div class="size__link-label">M</div>
+                                <p class="size__link-text">100x60 см</p>
+                            </a>
+                        </li>
+                        <li class="size__item">
+                            <a href="#" class="size__link">
+                                <div class="size__link-label">L</div>
+                                <p class="size__link-text">150x90 см</p>
+                            </a>
+                        </li>
+                        <li class="size__item">
+                            <a href="#" class="size__link">
+                                <div class="size__link-label">XL</div>
+                                <p class="size__link-text">200x120 см</p>
+                            </a>
+                        </li>
+                        <li class="size__item">
+                            <a href="#" class="size__link">
+                                <div class="size__link-label">XXL</div>
+                                <p class="size__link-text">300x175 см</p>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section class="engraving">
+                <div class="engraving__container container">
+                    <h2 class="engraving__title title">Дерев'яна мапа світу: варіанти гравіювання</h2>
+                    <ul class="engraving__list">
+                        <li class="engraving__item">
+                            <h3 class="engraving__item-title">pure</h3>
+                            <img class="engraving__item-img" src="./images/map.jpg" alt="Гравіювання на мапі ">
+                            <div class="engraving__item-position">
+                                <div class="engraving__item-button">
+                                    <div class="engraving__item-number">1</div>
+                                </div>
+                                <p class="engraving__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ratione, blanditiis accusantium
+                                    dolore eum provident repellendus!</p>
+                            </div>
+                        </li>
+                        <li class="engraving__item">
+                            <h3 class="engraving__item-title">primary</h3>
+                            <img class="engraving__item-img" src="./images/map.jpg" alt="Гравіювання на мапі ">
+                            <div class="engraving__item-position">
+                                <div class="engraving__item-button">
+                                    <div class="engraving__item-number">2</div>
+                                </div>
+                                <p class="engraving__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ratione, blanditiis accusantium
+                                    dolore eum provident repellendus!
+                                </p>
+                            </div>
+
+                        </li>
+                        <li class="engraving__item">
+                            <h3 class="engraving__item-title">top 1</h3>
+                            <img class="engraving__item-img" src="./images/map.jpg" alt="Гравіювання на мапі ">
+                            <div class="engraving__item-position">
+                                <div class="engraving__item-button">
+                                    <div class="engraving__item-number">3</div>
+                                </div>
+                                <p class="engraving__item-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                    Ratione, blanditiis accusantium
+                                    dolore eum provident repellendus!</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            <section>
+                <div class="container">
+
+                </div>
+            </section>
+
+        </main>
+
+    </div>
+    <script src="./js/mobile-menu.js"></script>
+</body>
+
+</html>
