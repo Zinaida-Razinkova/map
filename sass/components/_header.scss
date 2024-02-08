@@ -1,9 +1,12 @@
 .header {
+    position: fixed;
+    width: 100%;
+    z-index: 10;
     background-color: $primary-color;
     height: 85px;
 
     @media screen and (max-width: 1025px) {
-        position: relative;
+        // position: relative;
         height: 60px;
     }
 }

@@ -93,12 +93,14 @@ main {
 }
 
 .header {
+  position: fixed;
+  width: 100%;
+  z-index: 10;
   background-color: #333333;
   height: 85px;
 }
 @media screen and (max-width: 1025px) {
   .header {
-    position: relative;
     height: 60px;
   }
 }
@@ -227,7 +229,7 @@ main {
 }
 
 .products {
-  padding: 20px 0px;
+  padding: 100px 0px;
   background-color: #f5f6f7;
 }
 
